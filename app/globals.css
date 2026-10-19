@@ -8,3 +8,19 @@
 @media(max-width:1100px) and (min-width:901px){.header nav{gap:14px;font-size:10px}.header{padding-left:3vw;padding-right:3vw}.buttonSmall{padding:10px 14px}}
 @media(max-width:900px){.mobileMenu{display:grid;width:42px;height:42px;place-items:center;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);position:relative;z-index:82}.mobileMenu svg{width:20px}.mobileNav{display:grid;grid-template-rows:1fr auto;position:fixed;inset:74px 0 0;background:var(--deep);color:#eef2ed;z-index:75;padding:32px 24px;transform:translateY(-110%);visibility:hidden;transition:transform .38s cubic-bezier(.16,1,.3,1),visibility .38s}.mobileNavOpen{transform:translateY(0);visibility:visible}.mobileNavLinks{display:grid;align-content:start}.mobileNavLinks a{display:grid;grid-template-columns:38px 1fr;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12);font:500 27px/1.1 var(--serif)}.mobileNavLinks span{font:600 9px var(--sans);letter-spacing:.12em;color:#c98a76}.mobileNavBottom{display:flex;align-items:center;gap:20px;padding-top:20px}.mobileNavBottom a{font-size:11px;border-bottom:1px solid rgba(255,255,255,.35)}.mobileNavBottom small{margin-left:auto;color:#91a197;font-size:8px}.destinations,.careOverview{grid-template-columns:1fr}.destinationsIntro,.careLead{position:static}.flowHeading{grid-template-columns:1fr}.flowSteps{grid-template-columns:1fr}.flowSteps article{border-right:0;border-bottom:1px solid rgba(255,255,255,.16)}.careNotice{grid-template-columns:auto 1fr}.careNotice .button{grid-column:1/-1;width:max-content}}
 @media(max-width:560px){.destinationList>a{grid-template-columns:36px 1fr 18px;gap:12px;padding:22px 0}.destinationList b{font-size:20px}.consultationFlow{padding:76px 24px}.flowSteps article{padding:28px 4px}.careRows article{grid-template-columns:40px 1fr}.careNotice{display:block}.careNotice>svg{margin-bottom:18px}.careNotice .button{margin-top:20px}.mobileNavLinks a{font-size:23px}.mobileNavBottom{flex-wrap:wrap}.mobileNavBottom small{width:100%;margin-left:0}}
+
+/* Link hub as entry route and full monthly booking calendar */
+.linkList>a.linkPrimary{background:#f0d7c8;border:1px solid rgba(255,255,255,.65);box-shadow:0 12px 35px rgba(0,0,0,.16)}
+.linkList>a.linkPrimary .linkIcon{background:var(--forest);color:white}
+.bookingTop{text-transform:none;margin-bottom:24px}
+.bookingTop button{display:grid;place-items:center;cursor:pointer}
+.calendarWeekdays,.monthGrid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.calendarWeekdays{margin-bottom:7px}
+.calendarWeekdays span{text-align:center;text-transform:uppercase;font-size:8px;font-weight:700;letter-spacing:.08em;color:#7b867f}
+.monthGrid button,.emptyDay{aspect-ratio:1;min-width:0}
+.monthGrid button{border:1px solid var(--line);background:white;border-radius:8px;color:var(--ink);cursor:pointer;transition:.2s}
+.monthGrid button:hover:not(:disabled){border-color:var(--leaf);transform:translateY(-1px)}
+.monthGrid button:disabled{opacity:.3;cursor:not-allowed;background:transparent}
+.monthGrid button b{font:600 17px var(--serif)}
+.timeGrid button{cursor:pointer}
+@media(max-width:560px){.calendarWeekdays,.monthGrid{gap:3px}.monthGrid button b{font-size:15px}}

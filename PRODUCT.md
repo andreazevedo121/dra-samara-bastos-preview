@@ -1,10 +1,10 @@
 # Prévia digital da Dra. Sâmara Bastos
 
-Site demonstrativo criado a partir de informações públicas do Instagram, Linktree, Doctoralia e participações profissionais públicas. O produto é um site multipágina, não uma landing page isolada.
+Site demonstrativo criado a partir de informações públicas do Instagram, Linktree, Doctoralia, LinkedIn e participações profissionais públicas. O produto é um site multipágina, não uma landing page isolada.
 
 ## Objetivo
 
-Unificar apresentação profissional, acesso rápido, áreas de atendimento, agendamento, mentoria, artigos e parcerias em uma experiência própria. A navegação precisa tornar todas essas frentes evidentes em computador e celular.
+O domínio principal abre a central de links. O destaque é o agendamento e, logo abaixo, o acesso “Início” leva ao site institucional completo em `/inicio`. As demais rotas reúnem apresentação profissional, áreas de atendimento, mentoria, artigos e parcerias.
 
 ## Observação
 
