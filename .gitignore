@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.vercel/
+.chrome-qa*/
+.edge-qa*/
+*-desktop.png
+*-mobile*.png
+.env*

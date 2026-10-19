@@ -1,0 +1,11 @@
+{
+  "businessType": "physician-personal-brand-family-medicine-cannabis",
+  "references": [
+    {"url":"https://www.cannabilize.com.br/","patterns":["hero com promessa responsável","jornada do paciente","prova e segurança","FAQ"]},
+    {"url":"https://www.gaiiasaude.com/","patterns":["passos claros","teleconsulta em destaque","benefícios objetivos","navegação por jornada"]},
+    {"url":"https://drflaviolustosa.com/","patterns":["autoridade pessoal","áreas de cuidado","agenda recorrente","conteúdo educativo"]}
+  ],
+  "structure": ["hero pessoal","credenciais","áreas de cuidado","sobre","jornada de agendamento","mentoria","CTA"],
+  "routes": ["/","/links","/sobre","/agendar","/mentoria","/artigos","/parcerias"],
+  "identity": {"tone":"acolhedor, científico e humano","palette":["olive","forest","cream","terracotta"],"typography":"editorial serif plus neutral sans"}
+}
