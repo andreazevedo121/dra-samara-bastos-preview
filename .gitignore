@@ -5,6 +5,7 @@ node_modules/
 .edge-qa*/
 *-desktop.png
 *-mobile*.png
+*review*.png
 .env*
 
 .vercel

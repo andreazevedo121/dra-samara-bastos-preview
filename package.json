@@ -2,7 +2,7 @@
   "name": "dra-samara-bastos-preview",
   "version": "0.1.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build --webpack", "start": "next start" },
+  "scripts": { "dev": "next dev", "build": "next build --webpack", "start": "next start", "test:mobile-nav": "node scripts/check-mobile-navigation.mjs" },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.8",
     "@fontsource/manrope": "^5.2.8",
